@@ -30,7 +30,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Midtrans\\": "Midtrans/"
+            "Midtrans\\": "Midtrans/",
+            "Midtrans\\Tests\\": "tests/"
         }
     }
 }
