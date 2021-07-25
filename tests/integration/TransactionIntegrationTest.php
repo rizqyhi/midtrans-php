@@ -1,13 +1,12 @@
 <?php
 
-namespace integration;
+namespace Midtrans\Tests\Integration;
 
 use Midtrans\CoreApi;
 use Midtrans\Transaction;
 use utility\MtChargeFixture;
-require_once 'IntegrationTest.php';
 
-class TransactionIntegrationTest extends IntegrationTest
+class TransactionIntegrationTest extends IntegrationTestCase
 {
 
     public function testStatusPermataVa()

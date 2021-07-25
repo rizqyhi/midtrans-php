@@ -1,12 +1,11 @@
 <?php
 
-namespace integration;
+namespace Midtrans\Tests\Integration;
 
 use Midtrans\Snap;
 use utility\MtChargeFixture;
-require_once 'IntegrationTest.php';
 
-class SnapIntegrationTest extends IntegrationTest
+class SnapIntegrationTest extends IntegrationTestCase
 {
     public function testSnapToken()
     {

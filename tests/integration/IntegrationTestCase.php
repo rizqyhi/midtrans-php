@@ -1,10 +1,10 @@
 <?php
 
-namespace integration;
+namespace Midtrans\Tests\Integration;
 
 use Midtrans\Config;
 
-abstract class IntegrationTest extends \PHPUnit_Framework_TestCase
+abstract class IntegrationTestCase extends \PHPUnit_Framework_TestCase
 {
     public static function setUpBeforeClass()
     {

@@ -1,15 +1,13 @@
 <?php
 
-namespace integration;
+namespace Midtrans\Tests\Integration;
 
 use Midtrans\CoreApi;
 use utility\MtChargeFixture;
 use Midtrans\Notification;
 use Midtrans\Transaction;
-require_once 'IntegrationTest.php';
 
-
-class NotificationIntegrationTest extends IntegrationTest
+class NotificationIntegrationTest extends IntegrationTestCase
 {
     private $status_response;
 

@@ -1,12 +1,11 @@
 <?php
 
-namespace integration;
+namespace Midtrans\Tests\Integration;
 
 use Midtrans\CoreApi;
 use utility\MtChargeFixture;
-require_once 'IntegrationTest.php';
 
-class CoreApiIntegrationTest extends IntegrationTest
+class CoreApiIntegrationTest extends IntegrationTestCase
 {
     private $payment_type;
     private $charge_params;
