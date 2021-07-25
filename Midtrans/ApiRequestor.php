@@ -3,7 +3,7 @@
 namespace Midtrans;
 
 use Exception;
-use MT_Tests;
+use Midtrans\Tests\MT_Tests;
 /**
  * Send request to Midtrans API
  * Better don't use this class directly, please use CoreApi, Snap, and Transaction instead
@@ -126,7 +126,7 @@ class ApiRequestor
         curl_setopt_array($ch, $curl_options);
 
         // For testing purpose
-        if (class_exists('MT_Tests') && MT_Tests::$stubHttp) {
+        if (class_exists(MT_Tests::class) && MT_Tests::$stubHttp) {
             $result = self::processStubed($curl_options, $url, $server_key, $data_hash, $post);
         } else {
             $result = curl_exec($ch);

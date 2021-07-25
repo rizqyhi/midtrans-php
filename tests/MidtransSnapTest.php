@@ -1,5 +1,7 @@
 <?php
 
+namespace Midtrans\Tests;
+
 use Midtrans\Config;
 use Midtrans\Snap;
 

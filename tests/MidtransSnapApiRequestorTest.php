@@ -1,5 +1,7 @@
 <?php
 
+namespace Midtrans\Tests;
+
 use Midtrans\ApiRequestor;
 use Midtrans\Config;
 

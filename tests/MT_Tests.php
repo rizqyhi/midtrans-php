@@ -1,5 +1,7 @@
 <?php
 
+namespace Midtrans\Tests;
+
 class MT_Tests
 {
     public static $stubHttp = false;

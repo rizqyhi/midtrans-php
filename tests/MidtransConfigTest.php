@@ -1,5 +1,7 @@
 <?php
 
+namespace Midtrans\Tests;
+
 use Midtrans\Config;
 
 class MidtransConfigTest extends \PHPUnit_Framework_TestCase
